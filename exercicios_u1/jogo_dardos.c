@@ -60,7 +60,7 @@ int main()
     int i;
     double a, b;
     double c, d;
-    double total_pts = 0;
+    int total_pts = 0;
 
     scanf("%lf %lf", &a, &b);
 
@@ -77,7 +77,7 @@ int main()
         b = d; 
     }
 
-    printf("%.0lf\n", total_pts);
+    printf("%d\n", total_pts);
 
     return 0;
 }

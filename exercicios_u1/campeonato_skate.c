@@ -53,7 +53,7 @@ int main(){
 
     if(media_final_A > media_final_B)
         printf("A\n");
-    else if (media_final_B > media_final_A)
+    else if(media_final_B > media_final_A)
         printf("B\n");
     else
         printf("empate\n");
