@@ -66,7 +66,8 @@ int main(){
 
     len_a = string_len(a);
     len_b = string_len(b);
-
+    
+    //deixa tudo em minusculo
     toLowercase(len_a, a);
     toLowercase(len_b, b);
 
