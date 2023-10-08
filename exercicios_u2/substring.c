@@ -28,6 +28,7 @@ int count_ocurrences(int len_1, int len_2, char s1[len_1], char s2[len_2]){
     return ocurrence;
 }
 
+//print o indice de cada ocorrencia
 void index_ocurrences(int len_1, int len_2, char s1[len_1], char s2[len_2]){
     int index[TAM];
     int count = 0;  
