@@ -13,7 +13,7 @@ int string_len(char s[]){
     }
     return i;
 }
-
+//conta ocorrencias
 int count_ocurrences(int len_1, int len_2, char s1[len_1], char s2[len_2]){
     int ocurrence = 0;
 
@@ -73,9 +73,5 @@ int main(){
     if(count_ocurrences(len_a, len_b, a, b) != 0)
         index_ocurrences(len_a, len_b, a, b);
     
-
-    
-
-
     return 0;
 }
