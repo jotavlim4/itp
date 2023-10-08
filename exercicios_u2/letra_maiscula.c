@@ -39,8 +39,8 @@ void first_upper(int len, char string[len]){
 int main(){
   char text[TAM];
   int lenght;
-
-  fgets(text, TAM, stdin); //inclui o \n na string
+  //inclui o \n na string
+  fgets(text, TAM, stdin); 
 
   //calcula tamanho da string
   lenght = string_lenght(TAM, text);
