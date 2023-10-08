@@ -42,9 +42,11 @@ int main(){
 
   fgets(text, TAM, stdin); //inclui o \n na string
 
+  //calcula tamanho da string
   lenght = string_lenght(TAM, text);
-
+  //faz toda a string ser minuscula
   toLowercase(lenght, text);
+  //apenas primeira letra maisucla
   first_upper(lenght, text);
 
   printf("%s", text);
