@@ -57,7 +57,6 @@ void toLowercase(int len, char string[len]){
 int main(){
     char a[TAM];
     char b[TAM];
-    int index[TAM];
     int len_a, len_b;
 
     fgets(a, TAM, stdin);
