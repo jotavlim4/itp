@@ -12,6 +12,7 @@ int main(){
     scanf("%s", campo);
     scanf("%d", &index);
 
+    //comentário teste
     if(campo[index] == '*'){
         printf("bum!\n");
     }
