@@ -44,40 +44,26 @@ int main()
         if (strcmp(chocolate_info[i].chocolate_type, "BRANCO") == 0)
         {
             chocolate_info[i].type = BRANCO;
+            count[BRANCO]++;
         }
         else if (strcmp(chocolate_info[i].chocolate_type, "AMARGO") == 0)
         {
             chocolate_info[i].type = AMARGO;
+            count[AMARGO]++;
         }
         else if (strcmp(chocolate_info[i].chocolate_type, "AO_LEITE") == 0)
         {
             chocolate_info[i].type = AO_LEITE;
+            count[AO_LEITE]++;
         }
         else if (strcmp(chocolate_info[i].chocolate_type, "COM_CASTANHAS") == 0)
         {
             chocolate_info[i].type = COM_CASTANHAS;
+            count[COM_CASTANHAS]++;
         }
         else
         {
             chocolate_info[i].type = INDEF;
-        }
-
-        switch (chocolate_info[i].type)
-        {
-        case BRANCO:
-            count[BRANCO]++;
-            break;
-        case AMARGO:
-            count[AMARGO]++;
-            break;
-        case AO_LEITE:
-            count[AO_LEITE]++;
-            break;
-        case COM_CASTANHAS:
-            count[COM_CASTANHAS]++;
-            break;
-        default:
-            break;
         }
 
         if (max_price < chocolate_info[i].price)
